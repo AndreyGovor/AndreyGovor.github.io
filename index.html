@@ -5,147 +5,660 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>GOVOR</title>
 </head>
 <body data-bs-spy="scroll">
-<div class="container row">
-    <div class="leftBlock col-lg-4">
+<div class="row">
+    <div class="leftBlock col-lg-3">
         <div class="position-fixed">
             <div class="info">
-                <img src="" alt="" class="info__img">
+                <img src="img/photo.jpg" alt="" class="info__img">
                 <div class="info__name">Говор Андрей</div>
                 <div class="info__post">Звукорежиссёр на съемочной площадке</div>
                 <div class="info__contacts contacts">
-                    <a href="tel:+375293765285" target="_blank"  class="contacts__link">+375(29)376-52-85</a>
-                    <a href="mailto:3765285@gmail.com" target="_blank"  class="contacts__link">3765285@gmail.com</a>
-                    <a href="https://t.me/andrey_govor" target="_blank"  class="contacts__link">Telegram</a>
+                    <a href="tel:+375293765285" target="_blank"  class="contacts__link"><i class="fas fa-mobile-alt"></i>+375(29)376-52-85</a>
+                    <a href="mailto:3765285@gmail.com" target="_blank"  class="contacts__link"><i class="far fa-envelope-open"></i>3765285@gmail.com</a>
+                    <a href="https://t.me/andrey_govor" target="_blank"  class="contacts__link"><i class="far fa-paper-plane"></i>Telegram</a>
                 </div>
-            </div>
-            <div id="years" class="list-group menu">
-                <a class="list-group-item list-group-item-action" href="#year-2003">2003</a>
-                <a class="list-group-item list-group-item-action" href="#year-2004">2004</a>
-                <a class="list-group-item list-group-item-action" href="#year-2005">2005</a>
-                <a class="list-group-item list-group-item-action" href="#year-2005">2005</a>
-                <a class="list-group-item list-group-item-action" href="#year-2006">2006</a>
-                <a class="list-group-item list-group-item-action" href="#year-2007">2007</a>
-                <a class="list-group-item list-group-item-action" href="#year-2008">2008</a>
-                <a class="list-group-item list-group-item-action" href="#year-2009">2009</a>
-                <a class="list-group-item list-group-item-action" href="#year-2010">2010</a>
-                <a class="list-group-item list-group-item-action" href="#year-2011">2011</a>
-                <a class="list-group-item list-group-item-action" href="#year-2012">2012</a>
-                <a class="list-group-item list-group-item-action" href="#year-2013">2013</a>
-                <a class="list-group-item list-group-item-action" href="#year-2014">2014</a>
-                <a class="list-group-item list-group-item-action" href="#year-2015">2015</a>
-                <a class="list-group-item list-group-item-action" href="#year-2016">2016</a>
-                <a class="list-group-item list-group-item-action" href="#year-2017">2017</a>
-                <a class="list-group-item list-group-item-action" href="#year-2018">2018</a>
-                <a class="list-group-item list-group-item-action" href="#year-2019">2019</a>
-                <a class="list-group-item list-group-item-action" href="#year-2020">2020</a>
-                <a class="list-group-item list-group-item-action" href="#year-2021">2021</a>
             </div>
         </div>
     </div>
-    <div class="rightBlock col-lg-8 ">
+    <div class="mainBlock col-lg-7 ">
         <h1 class="title">Фильмография</h1>
         <div class="filmography" data-bs-spy="scroll" data-bs-target="#years" data-bs-offset="0" tabindex="0">
-            <div class="filmography__year year" id="year-2003">
-                <h2 class="year__title">2003</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
-
+            <div class="filmography__year year" id="year-2020">
+                <h2 class="year__title">2020</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Соната для горничной</h3>
+                        <a href="https://www.kinopoisk.ru/film/1385498/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Сергей Борчуков</h4>
+                        <p class="film__description">Недвижимость в Москве... Для кого-то это мечта, а для Марины суровые будни. Она – горничная в компании, сдающей квартиры посуточно. Романтика большого города предстает перед ней с изнанки. Командировочные, меняющие девушек чаще, чем она успевает сменить простыни, скандальные туристы, оставляющие за собой чудовищный беспорядок… Вот и Игорь, который с места в карьер предлагает ей чашечку кофе, кажется таким же, как все. А Игорю просто немного страшно: он приехал в Москву, чтобы встретиться с дочерью, которую не видел пять лет. Он одинок, она почти уже не мечтает о любви. Смогут ли они разглядеть друг друга?
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/no-poster.svg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Акушерка</h3>
+                        <a href="https://www.kinopoisk.ru/series/4373690/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Станислав Либин</h4>
+                        <p class="film__description">Честная, преданная своему делу, сильная и в то же время ранимая доктор Скворцова снова разрывается между работой и личной жизнью, принимает судьбоносные решения и отчаянно ищет счастье, которое по заказу, к сожалению, не выдают.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/akusherka.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Топор-1943</h3>
+                        <a href="https://www.kinopoisk.ru/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Вадим Островский</h4>
+                        <p class="film__description">1943 год. Накануне наступления Красной Армии группа капитана Белова, в которую входит Иван Родин, случайно обнаруживает у села Анино замаскированную танковую дивизию. Разведчики понимают, что только они знают об устроенной немцами засаде. Раненный Белов приказывает Ивану дойти до советского командования и предупредить их об опасности. Он докладывает штабу об увиденных танках и даже воспроизводит тактический номер дивизии, но командование фронта ему не верит – указанную танковую дивизию немцев обнаружил другой разведчик, Одинцов, в сотне километров от Анино.
+                            Подозревая Ивана в дезинформации и работе на немцев, его арестовывают. Полковник Алёшин пытается спасти друга: благодаря его настойчивости, командование решает отправить ещё одну группу к Анино – проводником становится Иван, а руководит отрядом Одинцов.
+                            Дойдя до села, группа капитана обнаруживает неожиданную находку.</p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/no-poster.svg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Врачебная ошибка</h3>
+                        <a href="https://www.kinopoisk.ru/film/4430396/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Алексей Быстрицкий</h4>
+                        <p class="film__description">Мария Журавлёва — талантливый хирург. Она молода и красива, её ценят коллеги и пациенты, а недавно она встретила настоящую любовь. Мария могла бы быть абсолютно счастлива, есть только одно «но». На самом деле Марии Журавлевой… нет в живых. Под её именем живёт и работает другая девушка — отсидевшая в колонии за врачебную ошибку Зоя Ковалевская.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/no-poster.svg" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="filmography__year year" id="year-2004">
-                <h2 class="year__title">2004</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores incidunt iusto laborum nihil quas. Aut beatae, eaque id minus nulla rem totam? Ad, asperiores commodi culpa debitis distinctio ipsum maiores nam nihil obcaecati rerum ullam voluptas voluptates! Ab alias, aliquam aliquid dignissimos distinctio earum ex minima natus praesentium, quisquam sunt unde voluptate. Aliquam assumenda et eum eveniet mollitia, nemo sequi sint vel! Aliquid asperiores dolore inventore! Deleniti dolorem eligendi nisi quo repellendus repudiandae sapiente ut voluptatum? A ab accusamus, adipisci alias aliquam aliquid architecto beatae consequatur consequuntur corporis culpa cupiditate delectus dicta distinctio dolor doloremque dolorum earum error est expedita illo illum ipsum iste libero nam nisi non numquam porro possimus praesentium quia sunt totam ullam? Aliquam dignissimos eligendi fugiat maxime odit officia rem tempore tenetur vitae voluptatem! A, accusantium aliquam animi eos excepturi id in, laudantium numquam perferendis quod recusandae sint! Adipisci aspernatur atque commodi ipsa pariatur quasi rem.</p>
-            </div>
-            <div class="filmography__year year" id="year-2005">
-                <h2 class="year__title">2005</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
-
-
-            </div>
-            <div class="filmography__year year" id="year-2006">
-                <h2 class="year__title">2006</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
-
-            </div>
-            <div class="filmography__year year" id="year-2007">
-                <h2 class="year__title">2007</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
-
-            </div>
-            <div class="filmography__year year" id="year-2008">
-                <h2 class="year__title">2008</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
-
-            </div>
-            <div class="filmography__year year" id="year-2009">
-                <h2 class="year__title">2009</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
-
-            </div>
-            <div class="filmography__year year" id="year-2010">
-                <h2 class="year__title">2010</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
-
-            </div>
-            <div class="filmography__year year" id="year-2011">
-                <h2 class="year__title">2011</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
-
-            </div>
-            <div class="filmography__year year" id="year-2012">
-                <h2 class="year__title">2012</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
-
-            </div>
-            <div class="filmography__year year" id="year-2013">
-                <h2 class="year__title">2013</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
-
-            </div>
-            <div class="filmography__year year" id="year-2014">
-                <h2 class="year__title">2014</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
-
-            </div>
-            <div class="filmography__year year" id="year-2015">
-                <h2 class="year__title">2015</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
-
-            </div>
-            <div class="filmography__year year" id="year-2016">
-                <h2 class="year__title">2016</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
-
-            </div>
-            <div class="filmography__year year" id="year-2017">
-                <h2 class="year__title">2017</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
+            <div class="filmography__year year" id="year-2019">
+                <h2 class="year__title">2019</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Синее озеро</h3>
+                        <a href="https://www.kinopoisk.ru/series/1263381/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Валерий Девятилов</h4>
+                        <p class="film__description">Нина была счастлива в браке, пока не узнала, что муж Вадим планирует развестись и забрать себе дочку. Нина забирает малышку и сбегает. Водитель попутной машины, Михаил, проникнувшись ее проблемами, привозит Нину с дочкой в свой родной городок Синеозерск. Нина устраивается в местный пансионат горничной. Она уверена, что муж ее здесь не найдет. Но на работе у Нины появляется враг — Анна, жена Михаила, которая замечает симпатию между Ниной и своим мужем. Тогда Анна решает избавиться от соперницы…
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/sinee-ozero.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Наказание без преступления</h3>
+                        <a href="https://www.kinopoisk.ru/film/1402897/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Элина Суни</h4>
+                        <p class="film__description">Наталья в свои тридцать пять всё еще мечтает встретить принца. Однажды ночью на улице её от агрессивного пьяного мужчины спасает финский бизнесмен Ларс. Любовь между ними вспыхивает мгновенно, и вскоре Наталья выходит за Ларса замуж. У них рождается сын Миша, но брак не приносит счастья – долгожданный принц оказывается игроманом. В очередной раз сильно проигравшись, Ларс с помощью сына решает расположить свою тётю и стать наследником ее огромного состояния. Он подстраивает жене ловушку, похищает Мишу и вывозит его в Финляндию. Наталья теряет права на сына и остается одна. На помощь ей неожиданно приходит тот самый мужчина с улицы...
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/nakazanie.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Идеальный брак</h3>
+                        <a href="https://www.kinopoisk.ru/series/1346402/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Петр Степин</h4>
+                        <p class="film__description">Брак Елены и Михаила Орловых кажется нерушимым. Дом, любимая работа, взрослая дочь. Но Елена – врач-трудоголик и на семью у неё совсем не остаётся времени. Муж всегда относился к этому с пониманием, но терпение его уже на исходе – ведь жены никогда нет рядом. К тому же Елена не хочет заводить ребенка и всё чаще пропадает в детском доме. Она надеется удочерить девочку, чья мать умерла у неё на операционном столе. А вот муж категорически против. Когда Елена забывает про юбилей свадьбы, расстроенный Михаил оказывается в объятиях своей секретарши. Он даже решает уйти от жены, но не подозревает, что на самом деле всё совсем не так, как ему кажется…
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/idealnuy.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Искушение наследством</h3>
+                        <a href="https://www.kinopoisk.ru/film/1313581/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Сергей Гиргель</h4>
+                        <p class="film__description">Лена – дочь состоятельного бизнесмена. Отец растил свою принцессу как тепличный цветок. Лена никогда ни в чём не нуждалась и нигде не работала. Внезапная смерть отца всё изменила. Весь её благополучный мир оказался иллюзией – дом заложен, нужно платить по кредиту, а счета при этом заморожены. Богатая наследница, совсем недавно даже и не подозревавшая о существовании каких-либо жизненных проблем, вынуждена устроиться на работу простой официанткой. Но Лена пока и не догадывается, что её обожаемый муж Михаил погряз в долгах и готов на всё, чтобы заполучить её наследство…
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/no-poster.svg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Змеи и лестницы</h3>
+                        <a href="https://www.kinopoisk.ru/series/1346504/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Наталия Микрюкова</h4>
+                        <p class="film__description">Из вод холодного озера извлечен автомобиль с находящимся внутри телом. Утопленником оказывается иностранец, приехавший в Россию за месяц до этого. Ни цель его прибытия, ни круг знакомств, ни обстоятельства исчезновения неизвестны. Ясно лишь одно: произошло убийство. И раскрыть его предстоит старшему следователю Александре Зыряновой и капитану Борису Августу. Трудно придумать двух более непохожих людей – и по методу ведения дел, и по характеру, и по отношению к жизни. Но работать приходится в команде, в которую впоследствии вливается еще один человек – полицейский комиссар из Франкфурта Гвидо Росетти. В этом деле обнаруживается масса странностей, версии рассыпаются одна за другой, а за нагромождением случайных обстоятельств уже просматривается чей-то хорошо продуманный план. Для того, чтобы понять его, нужно в какой-то момент вглядеться в собственное прошлое и поискать ответы там. Вдруг найдутся?..
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/no-poster.svg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Почти семейный детектив</h3>
+                        <a href="https://www.kinopoisk.ru/series/1333577/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Иван Щёголев</h4>
+                        <p class="film__description">Автор детективов Ганна даже спустя годы боялась признаться себе, что все еще любит успешного бизнесмена Илью Галицкого. Когда-то между начинающей романисткой и женатым владельцем издательского дома случился роман. Более десяти лет назад, не желая делить любимого мужчину с его женой, Ганна, несмотря на беременность, разорвала отношения с Галицким. Когда же на Илью падает подозрение в убийстве любовника его супруги, Ганна, не раздумывая, решает ему помочь и начинает собственное расследование…
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/no-poster.svg" alt="">
+                    </div>
+                </div>
 
             </div>
             <div class="filmography__year year" id="year-2018">
                 <h2 class="year__title">2018</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Чернобыль</h3>
+                        <a href="https://www.kinopoisk.ru/series/1169262/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Алексей Мурадов</h4>
+                        <p class="film__description">Действие разворачивается с апреля по декабрь 1986 года. Украинскому отделу КГБ СССР становится известно об интересе, проявляемом иностранными спецслужбами к Чернобыльской атомной электростанции. Для установления местонахождения на территории Припяти опытного сотрудника ЦРУ Альберта Ленца, которого подозревают в шпионаже, в город прибывает подполковник военной контрразведки Андрей Николаев.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/no-poster.svg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Качели</h3>
+                        <a href="https://www.kinopoisk.ru/series/1049310/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Владимир Зинкевич</h4>
+                        <p class="film__description">Руслан Миронов приезжает в большой город, где хочет начать новую жизнь. Сняв комнату у риелтора-афериста, Руслан заселяется в квартиру, которую сдали днем раньше освободившемуся из тюрьмы вору в законе Науму.
+                            Это история о молодом парне, который по стечению обстоятельств оказался внутри криминального мира. Каково это — жить по понятиям, чем сейчас живет криминальный мир? Сможет ли парень противостоять соблазну легкой наживы и «успеха»? Какой путь выберет герой?
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/kacheli.jpg" alt="">
+                    </div>
+                </div>
 
             </div>
-            <div class="filmography__year year" id="year-2019">
-                <h2 class="year__title">2019</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
+            <div class="filmography__year year" id="year-2017">
+                <h2 class="year__title">2017</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Право последней ночи</h3>
+                        <a href="https://www.kinopoisk.ru/film/1073234/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Павел Снисаренко</h4>
+                        <p class="film__description">Супруги Елена и Андрей жили без бед, растили сынишку Антона, пока прошлое Лены не дало о себе знать. В жизни семьи появляется Саша, который давно и безнадежно любит Елену. Он идёт на все, чтобы добиться ее. Готов разрушить их семью. Но козни Саши оборачиваются трагедией. Гибнет сын Лены и Андрея, а сам Саша оказывается в тюрьме.
+                            Проходит три года. Лена винит во всём Андрея. Они оба так и не смогли смириться со случившимся. Судьба снова сводит всех троих там, где никто этого не ждет. Их противостояние снова может закончится трагически…
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/pravo-nochi.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Хрусталь</h3>
+                        <a href="https://www.kinopoisk.ru/film/1045133/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Дарья Жук</h4>
+                        <p class="film__description">90-е годы. Творческая девушка диджей Веля из Минска мечтает уехать в Америку. Из-за ошибки в поддельной справке на визу она оказывается в незнакомой семье небольшого городка. Пока приютившие ее люди заняты приготовлением к свадьбе, она собирается во что бы то ни стало добиться исполнения своей «хрустальной мечты».
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/hrustal.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Снайпер. Офицер СМЕРШ</h3>
+                        <a href="https://www.kinopoisk.ru/series/1366228/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Алексей Мурадов</h4>
+                        <p class="film__description">История непримиримого противостояния двух профессиональных снайперов, старшего лейтенанта особого отдела Егорова и лейтенанта Лотера Фон Дибица, начавшаяся в 1943 году в осадном Сталинграде и продолжившаяся в 1944 году в лесах Белоруссии.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/sniper.jpg" alt="">
+                    </div>
+                </div>
 
             </div>
-            <div class="filmography__year year" id="year-2020">
-                <h2 class="year__title">2020</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
+            <div class="filmography__year year" id="year-2016">
+                <h2 class="year__title">2016</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Подсадная утка</h3>
+                        <a href="https://www.kinopoisk.ru/film/1008276/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Павел Снисаренко</h4>
+                        <p class="film__description">Кира — молодая красивая девушка, выросла в состоятельной семье. Ее отец Виктор никогда ей ни в чем не отказывал. Сейчас она готовится к свадьбе с любимым человеком – компаньоном отца Николаем.
+                            Кира верит, что выходит замуж по любви – один раз и на всю жизнь, уверена, что сумеет найти общий язык с 10-летней падчерицей своего избранника Евой, и вскоре родит мужу еще детей. Отец Киры против их свадьбы, он знает, что Николай – авантюрист, которому нужны только его деньги. Но отговорить дочь не успевает, после внезапного сердечного приступа Виктор умирает.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/no-poster.svg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Опять замуж</h3>
+                        <a href="https://www.kinopoisk.ru/film/1008360/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Александр Грабарь</h4>
+                        <p class="film__description">Анна – дочь банкира, выросла в состоятельной семье с любящими родителями, которые давно заждались внуков. Анна никогда не считала себя красавицей, но сейчас верит, что и ей, наконец, улыбнулась удача. Она выходит замуж за молодого человека Егора. Но день своей свадьбы Анна узнает, что жених давно изменяет ей с другой, и решил жениться на ней только ради денег ее отца. Она сбегает из ЗАГСа и садится в ближайшее такси. Ехать ей некуда, и она предлагает случайному знакомому — таксисту Паше приютить ее на недельку у себя. Паше срочно нужны деньги, поэтому он соглашается, не представляя какие сюрпризы ждут его впереди. Оказывается, что Аня – «ходячая катастрофа», у нее в руках все горит и ломается. А тут еще из деревни приезжают родители Паши, которые принимают Аню за его долгожданную невесту. Чтобы не травмировать маму с больным сердцем, Паша просит Аню подыграть ему.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/no-poster.svg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Долги совести</h3>
+                        <a href="https://www.kinopoisk.ru/series/978701/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Алексей Карелин</h4>
+                        <p class="film__description">Татьяна — замечательная девушка, работает продавцом на рынке. Она недавно обрела свое счастье. Ее избранник Геннадий обаятельный молодой человек из обеспеченной семьи. Однако идиллия отношений заканчивается, когда Татьяна сообщает Гене, что ждет ребенка. Геннадий считает, что ему рано иметь детей, поэтому просит Таню сделать аборт. Влюбленные ссорятся, девушка случайно падает и ударяется головой. Родители Гены, не одобряющие выбор сына, решают навсегда их развести. Они сообщают Гене, что Татьяна погибла. Геннадий винит себя в смерти девушки. Когда же правда выплывает наружу, события приобретают неожиданный оборот.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/no-poster.svg" alt="">
+                    </div>
+                </div>
 
             </div>
-            <div class="filmography__year year" id="year-2021">
-                <h2 class="year__title">2021</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur incidunt nisi praesentium quibusdam quod repellendus suscipit voluptates. Asperiores cupiditate doloremque doloribus ea excepturi pariatur reiciendis saepe vitae. Architecto commodi consectetur culpa error inventore modi praesentium unde vel. Alias aliquid blanditiis eveniet ipsa itaque porro qui quod repellat sapiente voluptatem? Accusamus at aut consectetur ea eveniet facere illum incidunt ipsa labore laboriosam magnam maxime, natus, obcaecati officia optio perspiciatis quae quas saepe veniam veritatis vitae, voluptatem voluptates! Accusamus culpa deserunt dolore, eos eum libero maxime mollitia necessitatibus quibusdam, quis ratione repellendus! Aut dolorem doloribus nemo optio pariatur sapiente voluptate voluptatem.</p>
+            <div class="filmography__year year" id="year-2015">
+                <h2 class="year__title">2015</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Тонкий лёд</h3>
+                        <a href="https://www.kinopoisk.ru/series/924301/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Александр Франскевич-Лайе</h4>
+                        <p class="film__description">Порядок жизни в этой семье долгие годы диктовался волей Игоря Палагина, мужа и отца, успешного строительного магната с авторитарным стилем мышления. Но он и представить не мог, что случайная встреча его молодой жены, матери двоих детей Ирины с бизнесменом и автогонщиком Андреем Гаврюшовым зайдет настолько далеко. В деловой среде не место семейным скандалам! Но на что способен каждый из них в диаметрально противоположном стремлении — обрести личное счастье и сохранить семью?
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/tonkiy-led.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Шёпот</h3>
+                        <a href="https://www.kinopoisk.ru/film/941548/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Глеб Якубовский</h4>
+                        <p class="film__description">Стася Рокотова молода, привлекательна, учится в аспирантуре и собирается замуж. Но несмотря на все это, она чувствует себя очень одинокой. С женихом Игорем на первый взгляд все складывается нормально, но Стасю не покидает ощущение, что он ее не слышит или не хочет слышать. Мать вспоминает о своей младшей дочери, только когда ей что-то нужно. А со старшей сестрой Ликой, занимающейся живописью, они близки никогда не были...
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/shepot.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Холодное блюдо</h3>
+                        <a href="https://www.kinopoisk.ru/series/932123/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Глеб Якубовский</h4>
+                        <p class="film__description">Когда жених Жени Олег погибает в автокатастрофе по вине пьяного водителя, то она жаждет только одного: чтобы Костю Стрельцова, совершившего наезд, посадили надолго. Но этого не случается, так как шалопай Костя — сын местного олигарха, и отец неоднократно спасал его от ответственности. Тогда Женя решает, что свершит правосудие сама и добьется того, чтобы Костя оказался за решеткой...
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/holodnoe-bludo.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Печенье с предсказаниями</h3>
+                        <a href="https://www.kinopoisk.ru/series/958610/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Петр Степин</h4>
+                        <p class="film__description">Случайное предсказание, найденное Ириной в китайском печенье, неожиданно начинает сбываться — ее семейные отношения рушатся, раскрываются неприятные секреты близких людей, а вскоре героиня лишается и своего бизнеса... Сумеет ли Ирина найти выход и простить своих близких, сумеет ли заново построить свою жизнь?
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/no-poster.svg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Кто я</h3>
+                        <a href="https://www.kinopoisk.ru/series/962360/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Алексей Карелин</h4>
+                        <p class="film__description">Лада пережила страшную аварию, после которой ее память практически не восстановилась. Ее пожалела и взяла в дом владелица торгового центра, около которого и случилась авария. Лада была счастлива — кому она нужна, необразованная детдомовка? И работать бы ей вечно, помогая по хозяйству, но внезапно вернулся после нескольких лет отсутствия сын хозяйки... Артем помог Ладе вспомнить, что у нее были родители. Но где они сейчас, и кому было выгодно, чтобы девушка погибла или потеряла память?
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/kto-ya.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Дом для куклы</h3>
+                        <a href="https://www.kinopoisk.ru/series/968481/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Глеб Якубовский</h4>
+                        <p class="film__description">У Дины есть всё — яркая внешность, муж – успешный красавец, верные друзья и наконец — желанная беременность. Но в один миг счастью приходит конец. Дина теряет ребёнка и становится инвалидом. Друзья исчезают, кто по доброй воле, а кто нет. Даже муж, некогда любивший, становится равнодушным. Дина оказывается в одиночестве, но находит в себе силы выбраться из этого «ада». Кто на самом деле окажется близким человеком, а кто – предателем и врагом? И кто спасет Дину от смертельной опасности?
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/no-poster.svg" alt="">
+                    </div>
+                </div>
 
+            </div>
+            <div class="filmography__year year" id="year-2014">
+                <h2 class="year__title">2014</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Уходящая натура</h3>
+                        <a href="https://www.kinopoisk.ru/series/844216/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Дмитрий Иосифов</h4>
+                        <p class="film__description">А известный режиссёр Звонарёв снимает фильм. Большой, масштабный фильм о колхозной деревне.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/uhodashaya0natura.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Тени прошлого</h3>
+                        <a href="https://www.kinopoisk.ru/series/897891/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Екатерина Двигубская</h4>
+                        <p class="film__description">Для главной героини Ксении, семья была тихой гаванью. Она любила мужа, тот любил ее. Но появился Николай и стал шантажировать героиню ее прошлым. Ксения предпринимает все возможное и невозможное, чтобы муж ничего не узнал. Правда открывается, когда Ксения встречается со своей дочерью, которую она оставила в младенчестве в роддоме.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/teni.jpg" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="filmography__year year" id="year-2013">
+                <h2 class="year__title">2013</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Хочу замуж</h3>
+                        <a href="https://www.kinopoisk.ru/film/818666/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Глеб Якубовский</h4>
+                        <p class="film__description">Всего три недели есть у Вари, чтобы выйти замуж. Не просто выйти, а сначала найти, за кого. Почему же так мало времени? Из-за того, что так сошлись звезды. Именно так считает гадалка, к которой отправляется Варя по настоянию своей подруги Гали.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/hochu-zamuj.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Сводная Сестра</h3>
+                        <a href="https://www.kinopoisk.ru/series/806657/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Андрей Канивченко</h4>
+                        <p class="film__description">Машины родители разошлись, и теперь у Маши новый папа. Машин мир разрушен, а новый построить не дает сводная сестра Настя. Ведь Машу поселили в комнату, где раньше жила мама Насти. А боль от утраты матери безумно сильна и свежа. Проходят годы, но ненависть не становится меньше...
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/svodnaya.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Куба</h3>
+                        <a href="https://www.kinopoisk.ru/series/923509/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Андрей Щербинин</h4>
+                        <p class="film__description">Действие истории разворачивается в подмосковном Среднереченске, где капитан Андрей Кубанков по прозвищу Куба пытается начать жизнь с чистого листа. Не так давно он служил в разведке в мотострелковом полку, но его уволили за драку с командиром, который увёл у Кубы жену. Приехав в родные края, Андрей долгое время топил горе в алкоголе, пока не встретил Эрику. Но девушку, которая изменила его жизнь, внезапно похищают. Кубе приходится вспоминать навыки боевого разведчика, чтобы спасти любимую.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/kuba.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="filmography__year year" id="year-2012">
+                <h2 class="year__title">2012</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">5 звёзд</h3>
+                        <a href="https://www.kinopoisk.ru/film/682975/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Вячеслав Яковлев</h4>
+                        <p class="film__description">Пять женщин сталкиваются на праздновании юбилея в дамской комнате. У каждой из них своя тайна и своя история. Но насколько тесно переплетены их жизни, они сами и не подозревают...
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/5-zvezd.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Знахарка</h3>
+                        <a href="https://www.kinopoisk.ru/film/696423/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Владимир Тумаев</h4>
+                        <p class="film__description">У юной красавицы Леси редкий дар: она умеет лечить людей, исцеляя даже те болезни, с которыми не справляется современная медицина. Дар у Леси наследственный: знахарками были и ее покойная мать, и бабушка, с которой Леся живет в старом деревенском доме.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/znaharka.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Источник счастья</h3>
+                        <a href="https://www.kinopoisk.ru/series/676072/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Екатерина Шагалова</h4>
+                        <p class="film__description">За что бы ни взялась героиня фильма, она все делает самым лучшим образом. Иначе и быть не может, ведь она – повар, а значит, ее еда просто обязана быть вкусной и полезной.
+                            Но вот коллеги ее не одобряют: они не гнушаются и домой продукты унести, и масло неделями использовать. И вот уже ни одно заведение в городе не берет девушку на работу.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/istochnik.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="filmography__year year" id="year-2011">
+                <h2 class="year__title">2011</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">А снег кружит</h3>
+                        <a href="https://www.kinopoisk.ru/series/714317/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Владимир Тумаев</h4>
+                        <p class="film__description">Казалось бы, жизнь Лены — девочки из провинции — удалась. Она сделала все, чтобы в свои неполные 30 лет стать известной телеведущей. У нее красивый обеспеченный муж, ее ценят и уважают. Но за этим благополучным фасадом скрывается глубоко несчастный человек. Потому что нельзя стать счастливой, отказавшись от настоящей любви и собственного ребенка в угоду карьере и славе.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/sneg.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Тропинка вдоль реки</h3>
+                        <a href="https://www.kinopoisk.ru/series/665303/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Игорь Штернберг</h4>
+                        <p class="film__description">Юные влюбленные Даша и Костя живут в деревне: она заканчивает школу и будет ждать его из армии — тогда они сыграют свадьбу.
+                            Но совместным планам сбыться не суждено: еще не отслужив положенный срок, Костя женится на беременной от него Анжеле. Даша тяжело переживает разрыв. Получив аттестат, она уезжает в город поступать в художественное училище.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/tropinka.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="filmography__year year" id="year-2010">
+                <h2 class="year__title">2010</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Откройте это я</h3>
+                        <a href="https://www.kinopoisk.ru/series/581623/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Карен Оганесян</h4>
+                        <p class="film__description">Бывшая звезда, певица Нелли Негродова, и ее дочь Маша едут за рубеж - к Гарику, жениху Маши, в город, где он владеет небольшой гостиницей, подаренной отчимом. Нелли приглашена на юбилей отчима Гарика в качестве звезды вечера.
+                            Гарик рассказывает Нелли о своем отчиме, о том, что он ужасный, страшный человек, тиран.
+                            Случай сталкивает Негродову с Оскаром, бомжом, который, судя по всему, давно обитает в этом городке на пару со своим спутником Ваго. Живут они на пляже, частенько побираясь и роясь в мусорных баках.
+                            Нелли узнает в Оскаре своего бывшего мужа, отца Маши, которого когда-то считала ничтожеством. Она думала, что он умер в Америке. Эта встреча взволновала Негродову. Она с ужасом понимает, что все еще любит этого грязного и опустившегося человека…
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/otkroite.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="filmography__year year" id="year-2009">
+                <h2 class="year__title">2009</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Журов 2</h3>
+                        <a href="https://www.kinopoisk.ru/series/464960/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Карен Оганесян</h4>
+                        <p class="film__description">Главный герой фильма – немолодой, честный, преданный своему делу работник прокуратуры. Как и в первой части, в очередных сериях он расследует шесть дел, встречаясь с самыми разными людьми, как по характерам, так и по социальному положению. И в каждом деле его опыт, смекалка и превосходное знание психологии позволяют докопаться до самой сути...
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/jurov2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="filmography__year year" id="year-2008">
+                <h2 class="year__title">2008</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Иван да Марья</h3>
+                        <a href="https://www.kinopoisk.ru/series/471492/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Рауф Кубаев</h4>
+                        <p class="film__description">Разные, как плюс и минус, главные герои пересекаются сначала только по работе, но вскоре между ними возникают теплые отношения. У них разный подход к расследованию преступлений, но цель одна. Иногда кажется, что они не могут существовать рядом, но их агентство с успехом расследует самые разные дела – от слежки за неверным мужем до раскрытия преступлений государственной важности.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/ivan.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="filmography__year year" id="year-2007">
+                <h2 class="year__title">2007</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Око за око</h3>
+                        <a href="https://www.kinopoisk.ru/film/475015/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Геннадий Полока</h4>
+                        <p class="film__description">История о революции, которую принимает удивительный, интеллигентный генерал царской армии Евгений Адамов и гибнет за нее.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/oko.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Кандагар</h3>
+                        <a href="https://www.kinopoisk.ru/film/321845/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Андрей Кавун</h4>
+                        <p class="film__description">1995 год. Афганистан. Российский грузовой самолет принудительно посажен на аэродроме в столице исламского терроризма – городе Кандагаре. Пятеро российских лётчиков захвачены в плен фанатиками-талибами.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/kandagar.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="filmography__year year" id="year-2006">
+                <h2 class="year__title">2006</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Каменская 5</h3>
+                        <a href="https://www.kinopoisk.ru/series/467511/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Антон Сиверс</h4>
+                        <p class="film__description">В фильме появляются новые персонажи, некоторые знакомые герои покидают проект. Изменяется сам стиль фильма, он становится более ироничным и менее насыщенным сценами насилия.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/kam-5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="filmography__year year" id="year-2005">
+                <h2 class="year__title">2005</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Точка</h3>
+                        <a href="https://www.kinopoisk.ru/film/252125/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Юрий Мороз</h4>
+                        <p class="film__description">В фильме тесно переплелись три девичьи судьбы. Все они - проститутки, провинциальные девушки, по той или иной причине оказавшиеся в Москве. Каждая из них мечтает о будущем, конечно, счастливом. А пока они живут в каком-то «скворечнике» - бытовке около столичного вокзала, почти на железнодорожных путях.
+                            Рядом с ними живут такие же несчастные вьетнамцы, но те хоть торгуют чем-то, а вот наши героини - собой. Сколько же грязи, унижений, побоев и хамства выпало на долю этих забитых девчонок! Они ежедневно проходят через презрение - как своих «начальников» (сутенер и «мамочка«), так и «начальства» повыше - в лице милиционеров отделения, на территории которого находится их «точка»…
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/tochka.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="filmography__year year" id="year-2004">
+                <h2 class="year__title">2004</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Курсанты</h3>
+                        <a href="https://www.kinopoisk.ru/series/160897/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Андрей Кавун</h4>
+                        <p class="film__description">Действие сериала происходит зимой 1942 года в одном из тыловых артиллерийских училищ, где готовят новобранцев для отправки на фронт. Это история мальчишек, которым суждено стать «пушечным мясом», но они об этом еще не знают и лишь инстинктивно чувствуют, что им осталось жить совсем немного.
+                            В течение трех месяцев учебы – перед отправкой на фронт – судьбы молодых ребят, курсантов, для которых эти три месяца, возможно, и есть вся жизнь.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Каменская 4</h3>
+                        <a href="https://www.kinopoisk.ru/series/467504/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Александр Аравин</h4>
+                        <p class="film__description">Анастасия Каменская и ее команда — Коротков, Лесников и Доценко — расследуют новые сложные преступления. В основу нового многосерийного телефильма легли три истории: «Личное дело», «Тень прошлого» и «Двойник». В каждой из них Каменская отчаянно борется за жизни не только невинных людей, но и тех, кто преступил закон.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="filmography__year year" id="year-2003">
+                <h2 class="year__title">2003</h2>
+                <div class="year__film film row">
+                    <div class="film__info col-md-8">
+                        <h3 class="film__title">Женщины в игре без правил</h3>
+                        <a href="https://www.kinopoisk.ru/series/95374/" class="film__link" target="_blank">КиноПоиск</a>
+                        <h4 class="film__director">Юрий Мороз</h4>
+                        <p class="film__description">История о том, почему переплетаются судьбы людей, как они влияют друг на друга и каким образом это меняет мир вокруг нас. В центре — жизнь трех женщин — Марии Петровны, Елены и Алки. Они — одна семья. Бабушка, мать, дочь.
+                            Каждая из них встречает свою Любовь. Бабушка — последнюю, мать — нежданную и краткую, дочь — первую. И как бы сложно ни складывалась их жизнь, что бы ни происходило, вывод они делают лишь один — беду можно одолеть только Любовью.
+                        </p>
+                    </div>
+                    <div class="film__poster col-md-4">
+                        <img src="img/1.jpg" alt="">
+                    </div>
+                </div>
             </div>
         </div>
 
+    </div>
+    <div class="rightBlock col-lg-2">
+        <div class="position-fixed">
+            <div id="years" class="list-group list-group-flush menu">
+                <a class="list-group-item list-group-item-action" href="#year-2020">2020</a>
+                <a class="list-group-item list-group-item-action" href="#year-2019">2019</a>
+                <a class="list-group-item list-group-item-action" href="#year-2018">2018</a>
+                <a class="list-group-item list-group-item-action" href="#year-2017">2017</a>
+                <a class="list-group-item list-group-item-action" href="#year-2016">2016</a>
+                <a class="list-group-item list-group-item-action" href="#year-2015">2015</a>
+                <a class="list-group-item list-group-item-action" href="#year-2014">2014</a>
+                <a class="list-group-item list-group-item-action" href="#year-2013">2013</a>
+                <a class="list-group-item list-group-item-action" href="#year-2012">2012</a>
+                <a class="list-group-item list-group-item-action" href="#year-2011">2011</a>
+                <a class="list-group-item list-group-item-action" href="#year-2010">2010</a>
+                <a class="list-group-item list-group-item-action" href="#year-2009">2009</a>
+                <a class="list-group-item list-group-item-action" href="#year-2008">2008</a>
+                <a class="list-group-item list-group-item-action" href="#year-2007">2007</a>
+                <a class="list-group-item list-group-item-action" href="#year-2006">2006</a>
+                <a class="list-group-item list-group-item-action" href="#year-2005">2005</a>
+                <a class="list-group-item list-group-item-action" href="#year-2004">2004</a>
+                <a class="list-group-item list-group-item-action" href="#year-2003">2003</a>
+            </div>
+        </div>
     </div>
 </div>
 <script src="js/bootstrap.js"></script>

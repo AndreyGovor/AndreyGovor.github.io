@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -10803,8 +10804,77 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  color: #ffffff;
+}
+
 body {
   position: relative;
+  background-color: #19171a;
+  font-family: "Play", sans-serif;
+}
+
+.list-group-item {
+  background-color: #19171a !important;
+  color: #959794 !important;
+  border-color: #19171a !important;
+  font-size: 20px;
+}
+
+.list-group-item.active {
+  background-color: #19171a !important;
+  color: #e9322e !important;
+  border-color: #e9322e !important;
+}
+
+.info {
+  padding: 150px 30px 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info img {
+  width: 300px;
+}
+.info__img {
+  margin: 0 0 20px 0;
+}
+.info__name {
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+.info__post {
+  font-size: 16px;
+  color: #959794;
+  margin: 0 0 100px 0;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+.contacts__link {
+  color: #e9322e;
+  margin: 0 0 15px 0;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+.contacts__link i {
+  font-size: 30px;
+  color: #e9322e;
+  position: absolute;
+  left: -45px;
+}
+.contacts__link:first-child i {
+  left: -38px;
+}
+
+.film__poster img {
+  width: 300px;
+  height: 450px;
 }
 
 /*# sourceMappingURL=style.css.map */

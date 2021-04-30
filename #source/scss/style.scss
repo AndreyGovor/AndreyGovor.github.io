@@ -1,9 +1,79 @@
 @import "nullstyle.scss";
 @import "bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+$base-color: #19171a;
+$text-color: #ffffff;
+$subtext-color: #959794;
+$icon-color: #e9322e;
+*{
+  color: $text-color;
+}
 body{
   position: relative;
+  background-color: $base-color;
+  font-family: 'Play', sans-serif;
 }
-.leftBlock{
+.list-group-item{
+  background-color: $base-color !important;
+  color: $subtext-color !important;
+  border-color: $base-color !important;
+  font-size: 20px;
 }
-.filmography{
+.list-group-item.active{
+  background-color: $base-color !important;
+  color: $icon-color !important;
+  border-color: $icon-color !important;
+}
+.info{
+  padding: 150px 30px 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img{
+    width: 300px;
+  }
+  &__img{
+    margin: 0 0 20px 0;
+  }
+  &__name{
+    font-size: 45px;
+    color: $text-color;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+  }
+  &__post{
+    font-size: 16px;
+    color: $subtext-color;
+    margin: 0 0 100px 0;
+  }
+}
+.contacts{
+  display: flex;
+  flex-direction: column;
+  &__link{
+    color: $icon-color;
+    margin: 0 0 15px 0;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    i{
+      font-size: 30px;
+      color: $icon-color;
+      position: absolute;
+      left: -45px;
+    }
+    &:first-child{
+      i{
+        left: -38px;
+      }
+    }
+  }
+}
+.film{
+  &__poster{
+    img{
+      width: 300px;
+      height: 450px;
+    }
+  }
 }
