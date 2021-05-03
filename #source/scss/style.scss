@@ -9,6 +9,9 @@ $KP-color: #ea5d0b;
 $gray-color: #44433e;
 *{
   color: $text-color;
+  @include media-breakpoint-down(xl){
+    max-width: 100%;
+  }
 }
 body{
   position: relative;
@@ -32,6 +35,9 @@ body{
   border-color: $base-color !important;
   font-size: 20px;
   text-align: center;
+  @include media-breakpoint-down(xl){
+    padding: 1.2rem 1rem;
+  }
 }
 .list-group-item.active{
   background-color: $base-color !important;
@@ -45,43 +51,65 @@ body{
   align-items: center;
   @include media-breakpoint-down(xl){
     padding: 100px 0 0;
+    flex-direction: row;
   }
-  @include media-breakpoint-only(xl){
+  @include media-breakpoint-up(xl){
     padding: 150px 15px 300px;
   }
+  @include media-breakpoint-down(md){
+    flex-direction: column;
+  }
+  &__flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
   img{
-    width: 300px;
-    @include media-breakpoint-down(xl){
+    @include media-breakpoint-down(lg){
+      width: 300px;
+    }
+    @include media-breakpoint-up(lg){
       width: 400px;
     }
-    @include media-breakpoint-only(xl){
-      width: 250px;
+    @include media-breakpoint-down(sm){
+      width: 200px;
+    }
+    @include media-breakpoint-up(xl){
+      width: 280px;
     }
   }
   &__img{
     margin: 0 0 20px 0;
+    @include media-breakpoint-down(xl){
+      margin: 0 40px 0 20px;
+    }
   }
   &__name{
     font-size: 45px;
     color: $text-color;
     font-weight: 700;
     margin: 0 0 10px 0;
-    @include media-breakpoint-down(xl){
-      font-size: 45px;
+    @include media-breakpoint-down(lg){
+      font-size: 40px;
     }
-    @include media-breakpoint-only(xl){
-      font-size: 34px;
+    @include media-breakpoint-up(xl){
+      font-size: 36px;
     }
+
   }
   &__post{
     font-size: 16px;
     color: $subtext-color;
     margin: 0 0 100px 0;
-    @include media-breakpoint-down(xl){
-      font-size: 16px;
+    @include media-breakpoint-down(lg){
+      font-size: 14px;
+    }
+    @include media-breakpoint-down(md){
       margin: 0 0 20px 0;
     }
-    @include media-breakpoint-only(xl){
+    @include media-breakpoint-up(xl){
       font-size: 14px;
     }
   }
@@ -89,6 +117,12 @@ body{
 .contacts{
   display: flex;
   flex-direction: column;
+  @include media-breakpoint-down(xl){
+    margin: 0 0 0 75px;
+  }
+  @include media-breakpoint-down(md){
+    margin: 0;
+  }
   &__link{
     color: $icon-color;
     margin: 0 0 15px 0;
@@ -108,26 +142,42 @@ body{
     }
   }
 }
+.mainRow{
+  @include media-breakpoint-up(xl){
+    @include make-row(12);
+    width: 100%;
+  }
+}
 .leftBlock{
   &__position{
     @include media-breakpoint-up(xl){
       position: fixed;
+      @include make-col(3);
     }
   }
 }
 .mainBlock{
-  padding: 30px 0 0 20px;
+  @include media-breakpoint-up(xl){
+    padding: 30px 20px 0 20px;
+    @include make-col(8);
+  }
+  @include media-breakpoint-down(xl){
+    padding: 20px 0 0 0;
+  }
 }
 .rightBlock{
-  @include media-breakpoint-down(xl){
-    position: fixed;
-    bottom: 0;
-    left: 0;
+  @include media-breakpoint-up(xl){
+    @include make-col(1);
   }
   &__position{
-
+    position: fixed;
     @include media-breakpoint-up(xl){
-      position: fixed;
+    }
+    @include media-breakpoint-down(xl){
+      bottom: 0;
+      left: 0;
+      overflow-scrolling: auto;
+      overflow: scroll;
     }
   }
 }
@@ -135,6 +185,9 @@ body{
   font-size: 50px;
   font-weight: 700;
   text-align: center;
+  @include media-breakpoint-down(md){
+    font-size: 34px;
+  }
 }
 .year{
   &__title{
@@ -142,21 +195,39 @@ body{
     font-size: 34px;
     border-top: 2px solid $icon-color;
     margin: 0 0 10px 0;
+    @include media-breakpoint-down(md){
+      padding: 0 0 0 15px;
+    }
   }
 }
 .film{
   border-bottom: 1px solid $gray-color;
   padding: 20px 0;
   display: flex;
-
+  @include media-breakpoint-down(sm){
+    flex-direction: column-reverse;
+  }
   &__poster{
     flex: 0 1 33.333%;
+    @include media-breakpoint-down(sm){
+      flex: auto;
+      align-self: center;
+    }
     img{
-      width: 300px;
-      height: 450px;
-      @include media-breakpoint-only(xl){
+      @include media-breakpoint-down(sm){
+        margin: 0 0 15px 0;
+      }
+      @include media-breakpoint-up(lg){
         width: 250px;
         height: 375px;
+      }
+      @include media-breakpoint-up(xl){
+        width: 300px;
+        height: 450px;
+      }
+      @include media-breakpoint-down(lg){
+        width: 200px;
+        height: 300px;
       }
     }
   }
@@ -165,6 +236,13 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0 20px 0 0;
+    @include media-breakpoint-down(xl){
+      padding: 0 20px 0 20px;
+    }
+    @include media-breakpoint-down(sm){
+      flex: auto;
+      padding: 0 10px;
+    }
   }
   &__title{
     font-size: 30px;
