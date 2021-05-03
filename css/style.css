@@ -10824,9 +10824,22 @@ body {
 }
 
 @media (max-width: 1199.98px) {
+  .list-group::-webkit-scrollbar-thumb {
+    background-color: rgba(233, 50, 46, 0.2);
+    border-radius: 10px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .list-group::-webkit-scrollbar {
+    background-color: #19171a;
+    height: 10px;
+  }
+}
+@media (max-width: 1199.98px) {
   .list-group {
     flex-direction: row !important;
-    overflow: scroll !important;
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
     -webkit-overflow-scrolling: touch;
   }
 }
@@ -11021,8 +11034,6 @@ body {
   .rightBlock__position {
     bottom: 0;
     left: 0;
-    overflow-scrolling: auto;
-    overflow: scroll;
   }
 }
 

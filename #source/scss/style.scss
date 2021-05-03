@@ -23,9 +23,23 @@ body{
   padding: 60px 0 0 0;
 }
 .list-group{
+  &::-webkit-scrollbar-thumb {
+    @include media-breakpoint-down(xl){
+      background-color: rgba($icon-color, 0.2);
+      border-radius: 10px;
+    }
+  }
+  &::-webkit-scrollbar{
+    @include media-breakpoint-down(xl){
+      background-color: $base-color;
+      height: 10px;
+
+    }
+  }
   @include media-breakpoint-down(xl){
     flex-direction: row !important;
-    overflow: scroll !important;
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
     -webkit-overflow-scrolling: touch;
   }
 }
@@ -176,8 +190,6 @@ body{
     @include media-breakpoint-down(xl){
       bottom: 0;
       left: 0;
-      overflow-scrolling: auto;
-      overflow: scroll;
     }
   }
 }
